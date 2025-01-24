@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everland</title>
+  
+  <link rel="shortcut icon" href="favicon.ico">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="inner">
+      <a href="#" class="hlogo">Everland resort</a>
+      <div class="hnav">
+        <div class="lang"></div>
+        <div class="login"></div>
+        <div class="hamburger"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 햄버거 클릭시 나오는 메뉴 -->
+  <div class="menu">
+    <div class="menubox"></div>
+    <div class="menupan">
+      <div class="inner">
+
+        <ul class="mainmenu">
+
+          <li><a href="#">이용안내</a>
+            <ul class="submenu">
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">오늘의 파크</a></li>
+              <li><a href="#">공연시간</a></li>
+              <li><a href="#">편의시설</a></li>
+              <li><a href="#">이용 안내 사항</a></li>
+              <li><a href="#">교통정보</a></li>
+              <li><a href="#">가이드맵/안전가이드</a></li>
+              <li><a href="#">도슨트와 함께 산책</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">이벤트<br>혜택</a>
+            <ul class="submenu">
+              <li><a href="#">이벤트</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">이용요금<br>프로모션</a>
+            <ul class="submenu">
+              <li><a href="#">이용요금</a></li>
+              <li><a href="#">제휴사 할인</a></li>
+              <li><a href="#">제휴카드</a></li>
+              <li><a href="#">이달의 할인</a></li>
+              <li><a href="#">드림투어</a></li>
+              <li><a href="#">체험프로그램</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">예약</a>
+            <ul class="submenu">
+              <li><a href="#">스마트예약</a></li>
+              <li><a href="#">기업단체예약</a></li>
+              <li><a href="#">학생단체예약</a></li>
+              <li><a href="#">해외단체예약</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">이용권<br>프로그램</a>
+            <ul class="submenu">
+              <li><a href="#">정기권</a></li>
+              <li><a href="#">동물사랑단</a></li>
+              <li><a href="#">식물사랑단</a></li>
+              <li><a href="#">이큐브스쿨</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#">고객센터</a>
+            <ul class="submenu">
+              <li><a href="#">자주하는 질문(FAQ)</a></li>
+              <li><a href="#">고객의 소리함</a></li>
+              <li><a href="#">유실물 찾기</a></li>
+              <li><a href="#">장애인 예약 이용안내</a></li>
+              <li><a href="#">광고 문의</a></li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    
+        <ul class="m-todaycover">
+          <li>
+            <div></div>
+            <div>이용권 등록</div>
+          </li>
+          <li>
+            <div></div>
+            <div>스마트줄서기</div>
+          </li>
+          <li>
+            <div></div>
+            <div>솜 적립</div>
+          </li>
+          <li>
+            <div></div>
+            <div>스마트예약 내역</div>
+          </li>
+          <li>
+            <div></div>
+            <div>공연시간</div>
+          </li>
+          <li>
+            <div></div>
+            <div>이벤트</div>
+          </li>
+        </ul>
+
+      <div class="xbtn"></div>
+    </div>
+  </div>
+
+  <main>
+    <div class="cloudbg1"></div>
+
+    <div class="main1">
+      <div class="m1s">
+        <div class="inner">
+          <div class="swiper m1Swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/mslide1.jpg" alt="무민윈터토피아" class="mslidebg">
+                <img src="images/mslide1logo.png" alt="무민윈터토피아 로고" class="mslidelogo">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/mslide2.png" alt="노르딕 포레스트" class="mslidebg">
+                <img src="images/mslide2logo.png" alt="노르딕 포레스트 로고" class="mslidelogo">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/mslide3.jpg" alt="수험생 할인 이벤트" class="mslidebg">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="todaycover">
+        <div class="today">
+        </div>
+        <ul>
+          <li>
+            <div></div>
+            <div>이용권 등록</div>
+          </li>
+          <li>
+            <div></div>
+            <div>스마트줄서기</div>
+          </li>
+          <li>
+            <div></div>
+            <div>솜 적립</div>
+          </li>
+          <li>
+            <div></div>
+            <div>스마트예약 내역</div>
+          </li>
+          <li>
+            <div></div>
+            <div>공연시간</div>
+          </li>
+          <li>
+            <div></div>
+            <div>이벤트</div>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+
+    <div class="main2">
+      <div class="inner">
+
+        <!-- <div class="simg">
+          <div class="simg2"></div>
+          <div class="simg3"></div>
+          <div class="simg4"></div>
+        </div> -->
+
+        <div class="card">
+
+          <div class="scover">
+            <!-- <img src="images/" alt=""> -->
+            <div class="simg1"></div>
+            <div class="s s1">
+              <div class="front">
+                <div class="stitle">Carribean Bay</div>
+                <div class="stxt">찬란하게 빛나는 에머랄드빛 카리브해</div>
+              </div>
+              <div class="back sback1"></div>
+            </div>
+          </div>
+
+          <div class="scover">
+            <div class="simg2"></div>
+            <div class="s s2">
+              <div class="front">
+                <div class="stitle">Everland</div>
+                <div class="stxt">함께 행복 에너지를 만드는 현실속의 에버토피아</div>
+              </div>
+              <div class="back sback2"></div>
+            </div>
+          </div>
+
+          <div class="scover">
+            <div class="simg3"></div>
+            <div class="s s3">
+              <div class="front">
+                <div class="stitle">Homebridge</div>
+                <div class="stxt">블리센트의 편안한 숲속 휴식처</div>
+              </div>
+              <div class="back sback3"></div>
+            </div>
+          </div>
+
+          <div class="scover">
+            <div class="simg4"></div>
+            <div class="s s4">
+              <div class="front">
+                <div class="stitle">Speedway</div>
+                <div class="stxt">세계적인 명품 서킷과 프리미엄 복합 문화 공간의 만남</div>
+              </div>
+              <div class="back sback4"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="main3">
+
+      <div class="cloudbg2"></div>
+      <div class="inner">
+        <div class="m3fix">
+          <div class="m3title">
+            <div>Today's</div>
+            <div>Benefit</div>
+          </div>
+          <div class="somsatang"></div>
+        </div>
+
+        <div class="m3scroll">
+
+          <div>
+            <div class="scrolltxt">
+              <div class="scrolldate">~25.02.28</div>
+              <div class="scrolltitle">윈터 시즌권</div>
+              <div class="scrollprice">90,000원</div>
+              <div class="scrollarrow">
+                <img src="images/arrowg.png" alt="화살표">
+              </div>
+            </div>
+            <div class="scrollhover">
+              <div>겨울 한정 시즌권 판매</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="scrolltxt">
+              <div class="scrolldate">~24.12.31</div>
+              <div class="scrolltitle">레니의 컬러풀 드림 PKG(2인)</div>
+              <div class="scrollprice">74,000원</div>
+              <div class="scrollarrow">
+                <img src="images/arrowg.png" alt="화살표">
+              </div>
+            </div>
+            <div class="scrollhover">
+              <div>나만 보기 아까운 레니의 컬러풀 드림 패키지</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="scrolltxt">
+              <div class="scrolldate">~24.12.31</div>
+              <div class="scrolltitle">Plan it 3</div>
+              <div class="scrollprice"></div>
+              <div class="scrollarrow">
+                <img src="images/arrowg.png" alt="화살표">
+              </div>
+            </div>
+            <div class="scrollhover">
+              <div>원하는 어트랙션만!</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="scrolltxt">
+              <div class="scrolldate">~24.12.20</div>
+              <div class="scrolltitle">노르딕 포레스트 1+1 패키지</div>
+              <div class="scrollprice">46,000원~</div>
+              <div class="scrollarrow">
+                <img src="images/arrowg.png" alt="화살표">
+              </div>
+            </div>
+            <div class="scrollhover">
+              <div>노르딕 포레스트 오픈기념 이벤트</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="scrolltxt">
+              <div class="scrolldate">~24.12.11</div>
+              <div class="scrolltitle">나비의 꿈꾸는 정원 키즈 패키지(2인)</div>
+              <div class="scrollprice">64,000원~</div>
+              <div class="scrollarrow">
+                <img src="images/arrowg.png" alt="화살표">
+              </div>
+            </div>
+            <div class="scrollhover">
+              <div>무민이 전하는 행복한 나비 이야기</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="scrolltxt">
+              <div class="scrolldate">~24.12.11</div>
+              <div class="scrolltitle">무민 투게더 패키지</div>
+              <div class="scrollprice">64,000원</div>
+              <div class="scrollarrow">
+                <img src="images/arrowg.png" alt="화살표">
+              </div>
+            </div>
+            <div class="scrollhover">
+              <div>무민과 함께하면 어디서든 행복해</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="scrolltxt">
+              <div class="scrolldate">~25.02.28</div>
+              <div class="scrolltitle">판다 아카데미</div>
+              <div class="scrollprice">40,000원</div>
+              <div class="scrollarrow">
+                <img src="images/arrowg.png" alt="화살표">
+              </div>
+            </div>
+            <div class="scrollhover">
+              <div>판다는 곰이 맞을까?</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="main4">
+      <div class="bubblebg1"></div>
+
+      <div class="inner">
+
+        <div class="m4">
+          <div class="m4title">HOT in Everland</div>
+          <div class="slidebtn">
+            <div>자세히 보기</div>
+          </div>
+        </div>
+
+
+
+        <div class="swiper m4Swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/hslide1.jpg" alt="무민 스토어">
+              <div class="m4txt">
+                <div class="m4txt1">인생샷 명당 무민 스토어로 놀러오세요</div>
+                <div class="m4txt2">랜선 매장 나들이로 먼저 확인해보세요!</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/hslide2.jpg" alt="주토피아">
+              <div class="m4txt">
+                <div class="m4txt1">주토피아의 새로운 친구들을 소개합니다</div>
+                <div class="m4txt2">주토피아에 새롭게 찾아온 아메리카 비버와 알파카 친구들을 소개해드릴게요</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <div class="main5">
+
+      <div class="bubblebg2"></div>
+      <div class="inner">
+        <div class="m5title">NEW in Everland</div>
+
+
+
+        <div class="swiper m5Swiper">
+
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="m5txt">
+                <div class="m5txt1">기린 드림투어</div>
+                <div class="m5txt2">주토피아 그린 아카데미를 연계한 흥미로운 드림투어 상품을 만나보세요!</div>
+              </div>
+              <img src="images/nslide1.jpg" alt="기린 드림투어">
+            </div>
+
+            <div class="swiper-slide">
+              <div class="m5txt">
+                <div class="m5txt1">가든테라스 특별 이벤트</div>
+                <div class="m5txt2">가든테라스에서만 진행하는 2가지 특별 이벤트를 확인하세요!</div>
+              </div>
+              <img src="images/nslide2.jpg" alt="가든테라스 특별 이벤트">
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="slidebtn">
+          <div>자세히 보기</div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="main6">
+
+      <canvas id="fireworksCanvas"></canvas>
+
+
+
+      <div class="m6txt">
+
+        <div class="m6txt1">
+          <div class="inner">
+            <div>마법에 걸린 산 속,</div>
+            <div>영원한 땅에 살고 있는</div>
+            <div><b>에버랜더들</b>이 꿈꾸는 세상</div>
+          </div>
+        </div>
+
+        <div class="m6txt2">
+          <div class="inner">
+            <div>마음속에 품고 있는 <b>"소중한 가치"</b>를 담아</div>
+            <div>모두와 함께 나눌 <b>행복</b>이 머무는 곳,</div>
+            <div><b>에버랜드</b>로 놀러오세요!</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="talk">
+        <div class="inner">
+          <img src="images/talk1.png" alt="앱다운로드" data-aos="flip-left">
+          <img src="images/talk2.png" alt="굿즈#" data-aos="flip-right">
+        </div>
+      </div>
+
+      <div class="char">
+        <div class="inner">
+          <div class="land"></div>
+          <img src="images/c1.png" alt="c1" class="c1">
+          <img src="images/c2.png" alt="c2">
+          <img src="images/c3.png" alt="c3">
+          <img src="images/c4.png" alt="c4" class="c4">
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </main>
+  <footer>
+    <div class="inner">
+
+      <ul class="footer1">
+
+        <li>
+          <ul class="ftxt">
+            <li>이용약관</li>
+            <li><b>개인정보 처리방침</b></li>
+            <li>방침 개정 안내</li>
+            <li>이메일주소 무단수집 거부</li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="ftxt">
+            <li>입찰공고</li>
+            <li>고객센터 : 031-320-5000 (유료 09:00 ~ 18:00)</li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="ftxt">
+            <li>경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성물산(주)</li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="ftxt">
+            <li>대표이사 : 정해린</li>
+            <li>사업자등록번호 : 135-85-04288</li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="ftxt">
+            <li>통신판매업 신고번호 : 제2006-용인처인-0216호</li>
+            <li>사업자정보확인</li>
+          </ul>
+        </li>
+
+        <li>
+          <ul class="ftxt">
+            <li>Copyright ⓒ Samsung C&T Corporation. All rights reserved.
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <div class="footer2">
+        <div class="flogo"></div>
+
+        <div class="foption">
+
+
+          <div class="fn">
+            <a href="#">리조트 내 시설</a>
+
+            <ul class="fo">
+              <li>
+                <a href="#">삼성화재 모빌리티뮤지엄</a>
+              </li>
+              <li>
+                <a href="#">호암미술관</a>
+              </li>
+              <li>
+                <a href="#">글렌로스 골프클럽</a>
+              </li>
+            </ul>
+
+          </div>
+
+
+          <div class="fn">
+            <a href="#">Family Site</a>
+
+            <ul class="fo">
+              <li>
+                <a href="#">삼성물산 리조트부문</a>
+              </li>
+              <li>
+                <a href="#">베네스트 골프</a>
+              </li>
+              <li>
+                <a href="#">삼성화재안내견학교</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <div class="gotop">
+    <div class="topbtn"></div>
+    <div class="topbtnh"></div>
+  </div>
+
+  <script>
+    var swiper = new Swiper(".m1Swiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      autoplay: {
+        dely: 2500,
+        disableOnInteraction: false,
+      },
+    });
+
+    var swiper = new Swiper(".m4Swiper", {
+      effect: 'fade',
+      fadeEffect: { crossFade: true },
+      speed: 600,
+      // autoplay: {
+      //   delay: 2000,
+      //   disableOnInteraction: false,
+      // },
+      loop: true,
+    });
+
+    var swiper = new Swiper(".m5Swiper", {
+      effect: 'fade',
+      fadeEffect: { crossFade: true },
+      speed: 600,
+      // autoplay: {
+      //   delay: 2000,
+      //   disableOnInteraction: false,
+      // },
+      loop: true,
+    });
+
+    AOS.init();
+
+  </script>
+
+</body>
+
+</html>
